@@ -1,1 +1,4 @@
 .env
+try.py
+__pycache__
+logs
