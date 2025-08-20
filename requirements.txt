@@ -5,3 +5,4 @@ pymongo
 pymongo[srv]
 certifi
 python-dotenv
+scikit-learn
