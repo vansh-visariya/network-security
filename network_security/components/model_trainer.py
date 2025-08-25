@@ -17,6 +17,8 @@ from sklearn.linear_model import LogisticRegression
 from sklearn.tree import DecisionTreeClassifier
 from sklearn.neighbors import KNeighborsClassifier
 import mlflow
+import dagshub
+dagshub.init(repo_owner='vansh-visariya', repo_name='network-security', mlflow=True)
 
 class ModelTrainer:
     def __init__(self,model_trainer_config:ModelTrainerConfig,
