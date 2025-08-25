@@ -7,4 +7,5 @@ certifi
 python-dotenv
 scikit-learn
 dill
+mlflow
 pyaml
